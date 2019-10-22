@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
-  s.name         = 'WebViewJavascriptBridge'
-  s.version      = '6.0.3'
+  s.name         = 'LXWebViewJavascriptBridge'
+  s.version      = '6.1.0'
   s.summary      = 'An iOS & OSX bridge for sending messages between Obj-C/Swift and JavaScript in WKWebViews, UIWebViews & WebViews.'
-  s.homepage     = 'https://github.com/marcuswestin/WebViewJavascriptBridge'
+  s.homepage     = 'https://github.com/IDEAL-YANG/WebViewJavascriptBridge'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.author       = { 'marcuswestin' => 'marcus.westin@gmail.com' }
-  s.source       = { :git => 'https://github.com/marcuswestin/WebViewJavascriptBridge.git', :tag => 'v'+s.version.to_s }
+  s.author       = { 'IDEAL-YANG' => 'lxyang6688@163.com' }
+  s.source       = { :git => 'https://github.com/IDEAL-YANG/WebViewJavascriptBridge.git', :tag => 'v'+s.version.to_s }
   s.platforms    = { :ios => "5.0", :osx => "" }
   s.requires_arc = true
   
@@ -16,4 +16,7 @@ Pod::Spec.new do |s|
   
   s.frameworks       = 'WebKit'
   s.ios.frameworks   = 'UIKit', 'WebKit'
+
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
+  
 end

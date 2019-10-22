@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import WebViewJavascriptBridge
+import LXWebViewJavascriptBridge
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

@@ -1,0 +1,6 @@
+framework module LXWebViewJavascriptBridge {
+  umbrella header "LXWebViewJavascriptBridge-umbrella.h"
+
+  export *
+  module * { export * }
+}

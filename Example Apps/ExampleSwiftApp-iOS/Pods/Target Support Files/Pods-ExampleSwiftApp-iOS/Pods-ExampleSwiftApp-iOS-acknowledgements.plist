@@ -40,7 +40,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
-			<string>WebViewJavascriptBridge</string>
+			<string>LXWebViewJavascriptBridge</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>
